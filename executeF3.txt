@@ -1,0 +1,5 @@
+@echo on
+cd "C:\Python Scripts\Bot_Publicaciones_XM"
+call C:\ProgramData\Anaconda3\Scripts\activate.bat
+call conda activate botXM
+call "C:\Users\gcoral\.conda\envs\botXM\python.exe" bot_Xm_pub.py
